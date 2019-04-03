@@ -9,9 +9,14 @@
 /* Begin PBXBuildFile section */
 		AE6651AC22544E150032A5B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6651AB22544E150032A5B7 /* AppDelegate.swift */; };
 		AE6651AE22544E160032A5B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6651AD22544E160032A5B7 /* Assets.xcassets */; };
-		AE6651B122544E170032A5B7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6651AF22544E170032A5B7 /* MainMenu.xib */; };
 		AE6651BD22544E170032A5B7 /* IMGURsnipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6651BC22544E170032A5B7 /* IMGURsnipperTests.swift */; };
 		AE6651C822544E170032A5B7 /* IMGURsnipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6651C722544E170032A5B7 /* IMGURsnipperUITests.swift */; };
+		AE6651DB225450120032A5B7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6651DA225450120032A5B7 /* MainMenu.xib */; };
+		AE6651E02254506A0032A5B7 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6651DC225450690032A5B7 /* MainWindowController.swift */; };
+		AE6651E12254506A0032A5B7 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6651DD2254506A0032A5B7 /* StatusMenuController.swift */; };
+		AE6651E22254506A0032A5B7 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6651DE2254506A0032A5B7 /* Keys.swift */; };
+		AE6651E32254506A0032A5B7 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6651DF2254506A0032A5B7 /* Logger.swift */; };
+		AE6651E5225450BD0032A5B7 /* ImgurAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6651E4225450BD0032A5B7 /* ImgurAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,6 @@
 		AE6651A822544E150032A5B7 /* IMGURsnipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMGURsnipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6651AB22544E150032A5B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE6651AD22544E160032A5B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE6651B022544E170032A5B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		AE6651B222544E170032A5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE6651B322544E170032A5B7 /* IMGURsnipper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IMGURsnipper.entitlements; sourceTree = "<group>"; };
 		AE6651B822544E170032A5B7 /* IMGURsnipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMGURsnipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,12 @@
 		AE6651C322544E170032A5B7 /* IMGURsnipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMGURsnipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6651C722544E170032A5B7 /* IMGURsnipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMGURsnipperUITests.swift; sourceTree = "<group>"; };
 		AE6651C922544E170032A5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6651DA225450120032A5B7 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		AE6651DC225450690032A5B7 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		AE6651DD2254506A0032A5B7 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		AE6651DE2254506A0032A5B7 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		AE6651DF2254506A0032A5B7 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		AE6651E4225450BD0032A5B7 /* ImgurAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgurAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +104,14 @@
 		AE6651AA22544E150032A5B7 /* IMGURsnipper */ = {
 			isa = PBXGroup;
 			children = (
+				AE6651DE2254506A0032A5B7 /* Keys.swift */,
+				AE6651E4225450BD0032A5B7 /* ImgurAPI.swift */,
+				AE6651DF2254506A0032A5B7 /* Logger.swift */,
+				AE6651DC225450690032A5B7 /* MainWindowController.swift */,
+				AE6651DD2254506A0032A5B7 /* StatusMenuController.swift */,
 				AE6651AB22544E150032A5B7 /* AppDelegate.swift */,
 				AE6651AD22544E160032A5B7 /* Assets.xcassets */,
-				AE6651AF22544E170032A5B7 /* MainMenu.xib */,
+				AE6651DA225450120032A5B7 /* MainMenu.xib */,
 				AE6651B222544E170032A5B7 /* Info.plist */,
 				AE6651B322544E170032A5B7 /* IMGURsnipper.entitlements */,
 			);
@@ -226,7 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE6651AE22544E160032A5B7 /* Assets.xcassets in Resources */,
-				AE6651B122544E170032A5B7 /* MainMenu.xib in Resources */,
+				AE6651DB225450120032A5B7 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +266,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6651E32254506A0032A5B7 /* Logger.swift in Sources */,
+				AE6651E12254506A0032A5B7 /* StatusMenuController.swift in Sources */,
+				AE6651E22254506A0032A5B7 /* Keys.swift in Sources */,
+				AE6651E02254506A0032A5B7 /* MainWindowController.swift in Sources */,
 				AE6651AC22544E150032A5B7 /* AppDelegate.swift in Sources */,
+				AE6651E5225450BD0032A5B7 /* ImgurAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,17 +305,6 @@
 			targetProxy = AE6651C422544E170032A5B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		AE6651AF22544E170032A5B7 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE6651B022544E170032A5B7 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AE6651CA22544E170032A5B7 /* Debug */ = {
@@ -349,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -404,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
