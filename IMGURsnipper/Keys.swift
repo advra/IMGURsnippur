@@ -6,11 +6,9 @@
 //  Copyright © 2019 Adrian Alonzo. All rights reserved.
 //
 
-import Cocoa
-
 class Keys {
     
     // Before running set your client and secret keys here
-    static let CLIENT_ID = ""
-    static let SECRET_ID = ""
+    static let CLIENT_ID = "4399b6230d63af6"
+    static let SECRET_ID = "82a3cf27329ab7dcbb0ad94557188b12376ab7b4"
 }
